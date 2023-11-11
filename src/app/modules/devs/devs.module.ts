@@ -1,12 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { DevsRoutingModule } from './devs-routing.module';
+import { DevListComponent } from './pages/dev-list/dev-list.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    DevListComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    DevsRoutingModule
   ]
 })
 export class DevsModule { }
