@@ -20,7 +20,7 @@ export class AuthService {
   login(user:User):Observable<HttpResponse<Login>> {
     const url = `${ this.baseUrl }/auth/login`;
     const body = {
-      username: user.email,
+      username: user.username,
       password: user.password
     }
     return this.http.post<Login>(url, body, {observe: 'response'});
