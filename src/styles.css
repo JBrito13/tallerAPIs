@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+.container-error-message{
+    color: red;
+}
+
+#error_input {
+    float: none;
+    color: red;
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+  #error_p {
+    float: none;
+    color: red;
+    padding-left: 0.5em;
+    vertical-align: middle;
+    font-size: 12px;
+    padding-top: 0.3em;
+  }
+  
